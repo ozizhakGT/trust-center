@@ -1,0 +1,8 @@
+{
+  "server": {
+    "port": 4000
+  },
+  "db": {
+    "uri": "mongodb://localhost:27017/safebase"
+  }
+}
