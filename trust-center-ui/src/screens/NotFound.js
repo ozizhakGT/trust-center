@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import {Link} from "react-router-dom";
-import notFoundImg from '../assets/images/404.png';
+import notFoundPic from '../assets/images/404.png';
 
 const StyledNotFound = styled.div`
   text-align: center;
@@ -15,7 +15,7 @@ export default function NotFound() {
 
     return (
         <StyledNotFound>
-            <img width='250' height='180' src={notFoundImg} alt="404 image"/>
+            <img width='250' height='180' src={notFoundPic} alt="404"/>
             <div>
                 <Link className='link' to='/login'>
                     return to login page

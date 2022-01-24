@@ -17,9 +17,9 @@ const StyledDashboard = styled.div`
 `;
 
 export default function Dashboard() {
-    const { client: [companyData, dispatch] } = useContext(GlobalContext);
+    const { client: [companyData] } = useContext(GlobalContext);
     const { company } = useParams();
-    const isValidCompanyStatus = useClient(company);
+    useClient(company);
 
     return (
         <StyledDashboard>

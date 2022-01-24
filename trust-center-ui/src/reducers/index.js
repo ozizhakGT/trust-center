@@ -1,5 +1,5 @@
 import clients from './client';
 
-export default {
-    clients
-}
+const reducers = { clients }
+
+export default reducers;
